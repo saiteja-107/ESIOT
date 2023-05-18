@@ -12,6 +12,5 @@ try:
         else:
             GPIO.output(24,False)
 
-
 except:
     GPIO.cleanup()
